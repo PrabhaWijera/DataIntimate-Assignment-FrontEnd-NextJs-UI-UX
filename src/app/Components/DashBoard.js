@@ -25,14 +25,12 @@ const  DashBoard=()=> {
             </div>
             <div className='flex items-center gap-[15px] relative'>
                 <p>
-                    Welcome back, John Doe!
+                    Douglas McGee
                 </p>
                 <div className='h-[50px] w-[50px] rounded-full bg-[#4E73DF] cursor-pointer flex items-center justify-center'>
                     <img src={profile} alt='profile'/>
                 </div>
-                
-
-
+              
             </div>
         </div>
     </div>

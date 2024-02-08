@@ -2,6 +2,7 @@ import Image from "next/image";
 import Sidebar from "./Components/Sidebar";
 import DashBoard from "./Components/DashBoard";
 import  Main from "@/app/Components/Main";
+import Footerx from "./Components/Footerx";
 // import { Outlet } from "react-router-dom";
 
 const Home=()=> {
@@ -15,6 +16,10 @@ const Home=()=> {
         <div>
           {/* <Outlet></Outlet> */}
           <Main/>
+         
+        </div>
+        <div className="flex justify-center items-center">
+        <Footerx/>
         </div>
       </div>
     </main>
